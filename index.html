@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" href="./src/img/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Cronômetro</h1>
+    <div class="container-cron">
+        <h2>  <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span><span id="millisecond"></span> </h2>
+    </div>
+    <div class="botões">
+        <img src="./src/img/Stop-1.png" alt="botão-de-parar" onclick="reset()">
+        <img src="./src/img/play.png" alt="botão-de-play" onclick="start ()">
+        <img src="./src/img/pausa.png" alt="botão-de-pausa" onclick="stop()">
+    </div>
+</body>
+<script src="./src/index.js"></script>
+</html>
